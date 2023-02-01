@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Search";
+}
+
+<body>
+
+
+    <h1>Hello, my name is <span id="name"></span></h1>
+    <script type="text/javascript"
+            src="site.js">
+        let name = document.getElementsByName("SearchInput").value;
+        
+        document.getElementById("name").innerHTML = name;
+    </script>
+</body>
